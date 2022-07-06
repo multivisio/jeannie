@@ -1,0 +1,30 @@
+{
+  "name": "jeannie",
+  "version": "1.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "prepatch": "npm version patch --no-git-tag-version && git add .",
+    "patch": "git commit -m",
+    "postpatch": "echo \"Hallo Welt\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multivisio/jeannie.git"
+  },
+  "author": "Jeannie Z",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/multivisio/jeannie/issues"
+  },
+  "homepage": "https://github.com/multivisio/jeannie#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jquery": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
